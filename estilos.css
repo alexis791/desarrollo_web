@@ -18,3 +18,15 @@ h1{
     /* text-transform: capitalize;
     text-decoration: none; */
 }
+
+.hero{
+    height: 300px;    
+}
+
+.project-details{
+    width: 500px;
+}
+
+.project-imageContainer{
+    width: 500px;
+}
