@@ -17,7 +17,7 @@ h1{
     line-height: 1.5;
     letter-spacing: -.2px;
     color: white;
-    margin: 100px 500px 70px 30px;
+    margin: 0;
     /* text-transform: capitalize;
     text-decoration: none; */
 }
@@ -33,6 +33,8 @@ h1 strong {
     background-size: 500px, 300px;
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
+    align-items: center;
 }
 
 #portafolio
@@ -63,8 +65,8 @@ h1 strong {
     background-color: #1b2127;
     color: white;
     display: flex;
-    height: 90px;
-    /* align-items: center; */
+    height: 70px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -102,4 +104,20 @@ figure{
     height: inherit;
     align-items: center;
     padding: 0 10px;
+}
+
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
 }
